@@ -1,0 +1,36 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold; 
+    padding: 0 5px;
+}
+
+window#waybar {
+    background-color: rgba(85, 79, 99, 0.9);
+    color: #fff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#workspaces button {
+  color: #FFFFFF;
+  padding: 0 0.35em;
+  margin: 0.25em;
+  border-radius: 10px;
+}
+
+#workspaces button.visible {
+  background-color: rgba(132, 121, 153, 0.9);
+  color: #9d98b3;
+}
+
+#workspaces button.active {
+  background-color: rgba(132, 121, 153, 0.9);
+  color: #FFFFFF;
+}
+
+#workspaces button.urgent {
+  background-color: @red;
+  border-radius: 1em;
+  color: @text;
+}
